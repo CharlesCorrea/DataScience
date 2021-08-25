@@ -1,4 +1,4 @@
-## Projetos de ciência de dados desenvolvidos.
+## Projetos em ciência de dados desenvolvidos.
 
 Este repositório tem por objetivo centralizar os projetos de ciência de dados desenvolvidos e ajudar no aprendizado.
 
