@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_56c05dbdcf274bd5baa0f4d7bbf6d565 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_56c05dbdcf274bd5baa0f4d7bbf6d565" ></div>
+        
+</body>
+<script>    
+    
+            var map_56c05dbdcf274bd5baa0f4d7bbf6d565 = L.map(
+                "map_56c05dbdcf274bd5baa0f4d7bbf6d565",
+                {
+                    center: [-15.793889, -47.882778],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0d6d668f98994da186ac8d928bd90d3f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_56c05dbdcf274bd5baa0f4d7bbf6d565);
+        
+    
+            var circle_2e1a6555c49c4c2886efedec5cca0f89 = L.circle(
+                [-30.17, -53.5],
+                {"bubblingMouseEvents": true, "color": "#69b3a2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#69b3a2", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 238189.70000000257, "stroke": true, "weight": 3}
+            ).addTo(map_56c05dbdcf274bd5baa0f4d7bbf6d565);
+        
+    
+        var popup_3087e000d4de45d1a21733faaf6ebf10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8009a77df3ce4640b556147cfffae290 = $(`<div id="html_8009a77df3ce4640b556147cfffae290" style="width: 100.0%; height: 100.0%;">RS</div>`)[0];
+            popup_3087e000d4de45d1a21733faaf6ebf10.setContent(html_8009a77df3ce4640b556147cfffae290);
+        
+
+        circle_2e1a6555c49c4c2886efedec5cca0f89.bindPopup(popup_3087e000d4de45d1a21733faaf6ebf10)
+        ;
+
+        
+    
+    
+            circle_2e1a6555c49c4c2886efedec5cca0f89.bindTooltip(
+                `<div>
+                     RS Total: 476379.40 kw de potência instalada.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d48126ff9bf3409c9b8d182d3d89f02f = L.circle(
+                [-27.45, -50.95],
+                {"bubblingMouseEvents": true, "color": "#69b3a2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#69b3a2", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 95976.71000000059, "stroke": true, "weight": 3}
+            ).addTo(map_56c05dbdcf274bd5baa0f4d7bbf6d565);
+        
+    
+        var popup_5f29440a3b604e658a872f91e652bf5c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5533b0b059b84f31b1cc7f6724cdf09d = $(`<div id="html_5533b0b059b84f31b1cc7f6724cdf09d" style="width: 100.0%; height: 100.0%;">SC</div>`)[0];
+            popup_5f29440a3b604e658a872f91e652bf5c.setContent(html_5533b0b059b84f31b1cc7f6724cdf09d);
+        
+
+        circle_d48126ff9bf3409c9b8d182d3d89f02f.bindPopup(popup_5f29440a3b604e658a872f91e652bf5c)
+        ;
+
+        
+    
+    
+            circle_d48126ff9bf3409c9b8d182d3d89f02f.bindTooltip(
+                `<div>
+                     SC Total: 191953.42 kw de potência instalada.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5ea2dacc1595461092c9049a2224bcbe = L.circle(
+                [-24.89, -51.55],
+                {"bubblingMouseEvents": true, "color": "#69b3a2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#69b3a2", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 138336.9000000013, "stroke": true, "weight": 3}
+            ).addTo(map_56c05dbdcf274bd5baa0f4d7bbf6d565);
+        
+    
+        var popup_34b5583660404373beaa26568b1978de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba407bb4872b41878002029e545bad7f = $(`<div id="html_ba407bb4872b41878002029e545bad7f" style="width: 100.0%; height: 100.0%;">PR</div>`)[0];
+            popup_34b5583660404373beaa26568b1978de.setContent(html_ba407bb4872b41878002029e545bad7f);
+        
+
+        circle_5ea2dacc1595461092c9049a2224bcbe.bindPopup(popup_34b5583660404373beaa26568b1978de)
+        ;
+
+        
+    
+    
+            circle_5ea2dacc1595461092c9049a2224bcbe.bindTooltip(
+                `<div>
+                     PR Total: 276673.80 kw de potência instalada.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_202bc1a3fde1453f84552db666292d0a = L.circle(
+                [-22.25, -42.66],
+                {"bubblingMouseEvents": true, "color": "#69b3a2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#69b3a2", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 74666.38999999964, "stroke": true, "weight": 3}
+            ).addTo(map_56c05dbdcf274bd5baa0f4d7bbf6d565);
+        
+    
+        var popup_fc033809fb8f454284e0f382bdc86e14 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f2bc6ef25bd4c58b8230764f8a4ccdd = $(`<div id="html_4f2bc6ef25bd4c58b8230764f8a4ccdd" style="width: 100.0%; height: 100.0%;">RJ</div>`)[0];
+            popup_fc033809fb8f454284e0f382bdc86e14.setContent(html_4f2bc6ef25bd4c58b8230764f8a4ccdd);
+        
+
+        circle_202bc1a3fde1453f84552db666292d0a.bindPopup(popup_fc033809fb8f454284e0f382bdc86e14)
+        ;
+
+        
+    
+    
+            circle_202bc1a3fde1453f84552db666292d0a.bindTooltip(
+                `<div>
+                     RJ Total: 149332.78 kw de potência instalada.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_db8c938dcd2a48d3adeefd1be67c4762 = L.circle(
+                [-22.19, -48.79],
+                {"bubblingMouseEvents": true, "color": "#69b3a2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#69b3a2", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 238418.00000000352, "stroke": true, "weight": 3}
+            ).addTo(map_56c05dbdcf274bd5baa0f4d7bbf6d565);
+        
+    
+        var popup_67534c7500924b379edcd372abe05ade = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba274dac106947dea5cbcf7bfb444bec = $(`<div id="html_ba274dac106947dea5cbcf7bfb444bec" style="width: 100.0%; height: 100.0%;">SP</div>`)[0];
+            popup_67534c7500924b379edcd372abe05ade.setContent(html_ba274dac106947dea5cbcf7bfb444bec);
+        
+
+        circle_db8c938dcd2a48d3adeefd1be67c4762.bindPopup(popup_67534c7500924b379edcd372abe05ade)
+        ;
+
+        
+    
+    
+            circle_db8c938dcd2a48d3adeefd1be67c4762.bindTooltip(
+                `<div>
+                     SP Total: 476836.00 kw de potência instalada.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_cad04b17470c40e08485a870d313c03f = L.circle(
+                [-20.51, -54.54],
+                {"bubblingMouseEvents": true, "color": "#69b3a2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#69b3a2", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 52886.76999999955, "stroke": true, "weight": 3}
+            ).addTo(map_56c05dbdcf274bd5baa0f4d7bbf6d565);
+        
+    
+        var popup_4c9a01097245430d9ce4f2cfbe98239a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_639dfe6fc0614581bb53c557085d0ff8 = $(`<div id="html_639dfe6fc0614581bb53c557085d0ff8" style="width: 100.0%; height: 100.0%;">MS</div>`)[0];
+            popup_4c9a01097245430d9ce4f2cfbe98239a.setContent(html_639dfe6fc0614581bb53c557085d0ff8);
+        
+
+        circle_cad04b17470c40e08485a870d313c03f.bindPopup(popup_4c9a01097245430d9ce4f2cfbe98239a)
+        ;
+
+        
+    
+    
+            circle_cad04b17470c40e08485a870d313c03f.bindTooltip(
+                `<div>
+                     MS Total: 105773.54 kw de potência instalada.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_558bfb7dd5404728902e5c7995df616d = L.circle(
+                [-19.19, -40.34],
+                {"bubblingMouseEvents": true, "color": "#69b3a2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#69b3a2", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 35494.59499999992, "stroke": true, "weight": 3}
+            ).addTo(map_56c05dbdcf274bd5baa0f4d7bbf6d565);
+        
+    
+        var popup_35809fc1a61b4fb0a7d71e73c1e9882d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41ef1d51fbb54692a63f9f8da3623985 = $(`<div id="html_41ef1d51fbb54692a63f9f8da3623985" style="width: 100.0%; height: 100.0%;">ES</div>`)[0];
+            popup_35809fc1a61b4fb0a7d71e73c1e9882d.setContent(html_41ef1d51fbb54692a63f9f8da3623985);
+        
+
+        circle_558bfb7dd5404728902e5c7995df616d.bindPopup(popup_35809fc1a61b4fb0a7d71e73c1e9882d)
+        ;
+
+        
+    
+    
+            circle_558bfb7dd5404728902e5c7995df616d.bindTooltip(
+                `<div>
+                     ES Total: 70989.19 kw de potência instalada.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_26886b9501c44ce3922a30cf2c7533b8 = L.circle(
+                [-18.1, -44.38],
+                {"bubblingMouseEvents": true, "color": "#69b3a2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#69b3a2", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 377596.9450000008, "stroke": true, "weight": 3}
+            ).addTo(map_56c05dbdcf274bd5baa0f4d7bbf6d565);
+        
+    
+        var popup_524c026c5c0b47cebd4244e696f7517f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1cfaf9da6254276b93b392c5e2d05cd = $(`<div id="html_c1cfaf9da6254276b93b392c5e2d05cd" style="width: 100.0%; height: 100.0%;">MG</div>`)[0];
+            popup_524c026c5c0b47cebd4244e696f7517f.setContent(html_c1cfaf9da6254276b93b392c5e2d05cd);
+        
+
+        circle_26886b9501c44ce3922a30cf2c7533b8.bindPopup(popup_524c026c5c0b47cebd4244e696f7517f)
+        ;
+
+        
+    
+    
+            circle_26886b9501c44ce3922a30cf2c7533b8.bindTooltip(
+                `<div>
+                     MG Total: 755193.89 kw de potência instalada.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f2898b524b9345c3b6befd26b51b3399 = L.circle(
+                [-15.98, -49.86],
+                {"bubblingMouseEvents": true, "color": "#69b3a2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#69b3a2", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 105983.52500000062, "stroke": true, "weight": 3}
+            ).addTo(map_56c05dbdcf274bd5baa0f4d7bbf6d565);
+        
+    
+        var popup_3edc945f83574df199227b05fb5abdf6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79436c7a7c53412d8cb31e314fe81195 = $(`<div id="html_79436c7a7c53412d8cb31e314fe81195" style="width: 100.0%; height: 100.0%;">GO</div>`)[0];
+            popup_3edc945f83574df199227b05fb5abdf6.setContent(html_79436c7a7c53412d8cb31e314fe81195);
+        
+
+        circle_f2898b524b9345c3b6befd26b51b3399.bindPopup(popup_3edc945f83574df199227b05fb5abdf6)
+        ;
+
+        
+    
+    
+            circle_f2898b524b9345c3b6befd26b51b3399.bindTooltip(
+                `<div>
+                     GO Total: 211967.05 kw de potência instalada.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_30fbef9f95b54987885ad62774b04489 = L.circle(
+                [-15.83, -47.86],
+                {"bubblingMouseEvents": true, "color": "#69b3a2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#69b3a2", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16684.035000000003, "stroke": true, "weight": 3}
+            ).addTo(map_56c05dbdcf274bd5baa0f4d7bbf6d565);
+        
+    
+        var popup_3ce5c1d51cfe445f86a717099b1b6f52 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5285c3704f3b486b9e5114c1db110bc0 = $(`<div id="html_5285c3704f3b486b9e5114c1db110bc0" style="width: 100.0%; height: 100.0%;">DF</div>`)[0];
+            popup_3ce5c1d51cfe445f86a717099b1b6f52.setContent(html_5285c3704f3b486b9e5114c1db110bc0);
+        
+
+        circle_30fbef9f95b54987885ad62774b04489.bindPopup(popup_3ce5c1d51cfe445f86a717099b1b6f52)
+        ;
+
+        
+    
+    
+            circle_30fbef9f95b54987885ad62774b04489.bindTooltip(
+                `<div>
+                     DF Total: 33368.07 kw de potência instalada.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1044149a536d46c1a11d1a85ac44b104 = L.circle(
+                [-13.29, -41.71],
+                {"bubblingMouseEvents": true, "color": "#69b3a2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#69b3a2", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 66515.88499999957, "stroke": true, "weight": 3}
+            ).addTo(map_56c05dbdcf274bd5baa0f4d7bbf6d565);
+        
+    
+        var popup_bab95d78d51f4736b133effece307af6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6177d955c40648c0ba4265a7d8c1e6c2 = $(`<div id="html_6177d955c40648c0ba4265a7d8c1e6c2" style="width: 100.0%; height: 100.0%;">BA</div>`)[0];
+            popup_bab95d78d51f4736b133effece307af6.setContent(html_6177d955c40648c0ba4265a7d8c1e6c2);
+        
+
+        circle_1044149a536d46c1a11d1a85ac44b104.bindPopup(popup_bab95d78d51f4736b133effece307af6)
+        ;
+
+        
+    
+    
+            circle_1044149a536d46c1a11d1a85ac44b104.bindTooltip(
+                `<div>
+                     BA Total: 133031.77 kw de potência instalada.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_bc79e2b640424f27989772d7666c845d = L.circle(
+                [-12.64, -55.42],
+                {"bubblingMouseEvents": true, "color": "#69b3a2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#69b3a2", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 137230.42000000158, "stroke": true, "weight": 3}
+            ).addTo(map_56c05dbdcf274bd5baa0f4d7bbf6d565);
+        
+    
+        var popup_f7a618af52014dc8a9afd7fa940c4971 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b12c10c86824c8e85747828fcafbaf8 = $(`<div id="html_3b12c10c86824c8e85747828fcafbaf8" style="width: 100.0%; height: 100.0%;">MT</div>`)[0];
+            popup_f7a618af52014dc8a9afd7fa940c4971.setContent(html_3b12c10c86824c8e85747828fcafbaf8);
+        
+
+        circle_bc79e2b640424f27989772d7666c845d.bindPopup(popup_f7a618af52014dc8a9afd7fa940c4971)
+        ;
+
+        
+    
+    
+            circle_bc79e2b640424f27989772d7666c845d.bindTooltip(
+                `<div>
+                     MT Total: 274460.84 kw de potência instalada.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ef88899f5b194375b13274fd239c03a3 = L.circle(
+                [-10.83, -63.34],
+                {"bubblingMouseEvents": true, "color": "#69b3a2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#69b3a2", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11800.945000000012, "stroke": true, "weight": 3}
+            ).addTo(map_56c05dbdcf274bd5baa0f4d7bbf6d565);
+        
+    
+        var popup_b7bd4513e6794506888a0e07d7758402 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_284e51f9cbe240938e7e2712868fc4f1 = $(`<div id="html_284e51f9cbe240938e7e2712868fc4f1" style="width: 100.0%; height: 100.0%;">RO</div>`)[0];
+            popup_b7bd4513e6794506888a0e07d7758402.setContent(html_284e51f9cbe240938e7e2712868fc4f1);
+        
+
+        circle_ef88899f5b194375b13274fd239c03a3.bindPopup(popup_b7bd4513e6794506888a0e07d7758402)
+        ;
+
+        
+    
+    
+            circle_ef88899f5b194375b13274fd239c03a3.bindTooltip(
+                `<div>
+                     RO Total: 23601.89 kw de potência instalada.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ceb122a2fc294d01b238e34f71c6746d = L.circle(
+                [-10.57, -37.45],
+                {"bubblingMouseEvents": true, "color": "#69b3a2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#69b3a2", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9684.615000000014, "stroke": true, "weight": 3}
+            ).addTo(map_56c05dbdcf274bd5baa0f4d7bbf6d565);
+        
+    
+        var popup_a9540b01efc64369b8c0abe09530b127 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86d4167650b8474785e9c7cd379633c5 = $(`<div id="html_86d4167650b8474785e9c7cd379633c5" style="width: 100.0%; height: 100.0%;">SE</div>`)[0];
+            popup_a9540b01efc64369b8c0abe09530b127.setContent(html_86d4167650b8474785e9c7cd379633c5);
+        
+
+        circle_ceb122a2fc294d01b238e34f71c6746d.bindPopup(popup_a9540b01efc64369b8c0abe09530b127)
+        ;
+
+        
+    
+    
+            circle_ceb122a2fc294d01b238e34f71c6746d.bindTooltip(
+                `<div>
+                     SE Total: 19369.23 kw de potência instalada.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5720e74ac2634ab5a72ee383a17324b3 = L.circle(
+                [-9.62, -36.82],
+                {"bubblingMouseEvents": true, "color": "#69b3a2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#69b3a2", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14252.885000000024, "stroke": true, "weight": 3}
+            ).addTo(map_56c05dbdcf274bd5baa0f4d7bbf6d565);
+        
+    
+        var popup_2e03ee3cef5140428236eb68df5f3c72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fac0b19979b5425abf1e240478948c61 = $(`<div id="html_fac0b19979b5425abf1e240478948c61" style="width: 100.0%; height: 100.0%;">AL</div>`)[0];
+            popup_2e03ee3cef5140428236eb68df5f3c72.setContent(html_fac0b19979b5425abf1e240478948c61);
+        
+
+        circle_5720e74ac2634ab5a72ee383a17324b3.bindPopup(popup_2e03ee3cef5140428236eb68df5f3c72)
+        ;
+
+        
+    
+    
+            circle_5720e74ac2634ab5a72ee383a17324b3.bindTooltip(
+                `<div>
+                     AL Total: 28505.77 kw de potência instalada.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_62ec0a9398084a6e872b28ceb8403e6c = L.circle(
+                [-9.46, -48.26],
+                {"bubblingMouseEvents": true, "color": "#69b3a2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#69b3a2", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12783.365000000027, "stroke": true, "weight": 3}
+            ).addTo(map_56c05dbdcf274bd5baa0f4d7bbf6d565);
+        
+    
+        var popup_814dd802f9854f88bd1fff04ccfa9691 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4771c82c68734d29a83a406d84373648 = $(`<div id="html_4771c82c68734d29a83a406d84373648" style="width: 100.0%; height: 100.0%;">TO</div>`)[0];
+            popup_814dd802f9854f88bd1fff04ccfa9691.setContent(html_4771c82c68734d29a83a406d84373648);
+        
+
+        circle_62ec0a9398084a6e872b28ceb8403e6c.bindPopup(popup_814dd802f9854f88bd1fff04ccfa9691)
+        ;
+
+        
+    
+    
+            circle_62ec0a9398084a6e872b28ceb8403e6c.bindTooltip(
+                `<div>
+                     TO Total: 25566.73 kw de potência instalada.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_45b58bb2ce5346c58975517fdf1845ae = L.circle(
+                [-8.77, -70.55],
+                {"bubblingMouseEvents": true, "color": "#69b3a2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#69b3a2", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3173.3249999999953, "stroke": true, "weight": 3}
+            ).addTo(map_56c05dbdcf274bd5baa0f4d7bbf6d565);
+        
+    
+        var popup_d6c6de1d22c742cb841ce9254762f4b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69ddab5dc9514f0c9f17bfb1fa943868 = $(`<div id="html_69ddab5dc9514f0c9f17bfb1fa943868" style="width: 100.0%; height: 100.0%;">AC</div>`)[0];
+            popup_d6c6de1d22c742cb841ce9254762f4b0.setContent(html_69ddab5dc9514f0c9f17bfb1fa943868);
+        
+
+        circle_45b58bb2ce5346c58975517fdf1845ae.bindPopup(popup_d6c6de1d22c742cb841ce9254762f4b0)
+        ;
+
+        
+    
+    
+            circle_45b58bb2ce5346c58975517fdf1845ae.bindTooltip(
+                `<div>
+                     AC Total: 6346.65 kw de potência instalada.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f502b4cf0b3044e58f32c90ea52c790a = L.circle(
+                [-8.38, -37.86],
+                {"bubblingMouseEvents": true, "color": "#69b3a2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#69b3a2", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 51881.229999999836, "stroke": true, "weight": 3}
+            ).addTo(map_56c05dbdcf274bd5baa0f4d7bbf6d565);
+        
+    
+        var popup_e8eb552161de41d7a4368e8bc066f5e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d8cbf3e9db8748bd82b631555db667cd = $(`<div id="html_d8cbf3e9db8748bd82b631555db667cd" style="width: 100.0%; height: 100.0%;">PE</div>`)[0];
+            popup_e8eb552161de41d7a4368e8bc066f5e4.setContent(html_d8cbf3e9db8748bd82b631555db667cd);
+        
+
+        circle_f502b4cf0b3044e58f32c90ea52c790a.bindPopup(popup_e8eb552161de41d7a4368e8bc066f5e4)
+        ;
+
+        
+    
+    
+            circle_f502b4cf0b3044e58f32c90ea52c790a.bindTooltip(
+                `<div>
+                     PE Total: 103762.46 kw de potência instalada.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8819bae9f19f495ba03d567a32b763cd = L.circle(
+                [-7.28, -36.72],
+                {"bubblingMouseEvents": true, "color": "#69b3a2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#69b3a2", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 36865.134999999886, "stroke": true, "weight": 3}
+            ).addTo(map_56c05dbdcf274bd5baa0f4d7bbf6d565);
+        
+    
+        var popup_d6c95e1a30454b338436d67372fe0f6e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9431d30d031845faa6343e5068318ee2 = $(`<div id="html_9431d30d031845faa6343e5068318ee2" style="width: 100.0%; height: 100.0%;">PB</div>`)[0];
+            popup_d6c95e1a30454b338436d67372fe0f6e.setContent(html_9431d30d031845faa6343e5068318ee2);
+        
+
+        circle_8819bae9f19f495ba03d567a32b763cd.bindPopup(popup_d6c95e1a30454b338436d67372fe0f6e)
+        ;
+
+        
+    
+    
+            circle_8819bae9f19f495ba03d567a32b763cd.bindTooltip(
+                `<div>
+                     PB Total: 73730.27 kw de potência instalada.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6ab4dee66abd4ec6953cda30f9d1c85a = L.circle(
+                [-6.6, -42.28],
+                {"bubblingMouseEvents": true, "color": "#69b3a2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#69b3a2", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 35900.59499999973, "stroke": true, "weight": 3}
+            ).addTo(map_56c05dbdcf274bd5baa0f4d7bbf6d565);
+        
+    
+        var popup_43c62b02dfc0458ba7662072743bf93c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_524ed571145d4875b36c916cec3d6697 = $(`<div id="html_524ed571145d4875b36c916cec3d6697" style="width: 100.0%; height: 100.0%;">PI</div>`)[0];
+            popup_43c62b02dfc0458ba7662072743bf93c.setContent(html_524ed571145d4875b36c916cec3d6697);
+        
+
+        circle_6ab4dee66abd4ec6953cda30f9d1c85a.bindPopup(popup_43c62b02dfc0458ba7662072743bf93c)
+        ;
+
+        
+    
+    
+            circle_6ab4dee66abd4ec6953cda30f9d1c85a.bindTooltip(
+                `<div>
+                     PI Total: 71801.19 kw de potência instalada.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_451726f4e0e54f2e8dc04cbccbdaade1 = L.circle(
+                [-5.81, -36.59],
+                {"bubblingMouseEvents": true, "color": "#69b3a2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#69b3a2", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 38420.90999999987, "stroke": true, "weight": 3}
+            ).addTo(map_56c05dbdcf274bd5baa0f4d7bbf6d565);
+        
+    
+        var popup_8c429d5c62284bc6ae5bbc1ca12f69e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4fe01dc3951842e8bade96703c608456 = $(`<div id="html_4fe01dc3951842e8bade96703c608456" style="width: 100.0%; height: 100.0%;">RN</div>`)[0];
+            popup_8c429d5c62284bc6ae5bbc1ca12f69e3.setContent(html_4fe01dc3951842e8bade96703c608456);
+        
+
+        circle_451726f4e0e54f2e8dc04cbccbdaade1.bindPopup(popup_8c429d5c62284bc6ae5bbc1ca12f69e3)
+        ;
+
+        
+    
+    
+            circle_451726f4e0e54f2e8dc04cbccbdaade1.bindTooltip(
+                `<div>
+                     RN Total: 76841.82 kw de potência instalada.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_41654cdcc645454ca09400ca149df231 = L.circle(
+                [-5.42, -45.44],
+                {"bubblingMouseEvents": true, "color": "#69b3a2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#69b3a2", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16887.250000000025, "stroke": true, "weight": 3}
+            ).addTo(map_56c05dbdcf274bd5baa0f4d7bbf6d565);
+        
+    
+        var popup_36a60634b143469d8d85f585f5da2a2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_616c114f873f4199a5041e2656c80586 = $(`<div id="html_616c114f873f4199a5041e2656c80586" style="width: 100.0%; height: 100.0%;">MA</div>`)[0];
+            popup_36a60634b143469d8d85f585f5da2a2a.setContent(html_616c114f873f4199a5041e2656c80586);
+        
+
+        circle_41654cdcc645454ca09400ca149df231.bindPopup(popup_36a60634b143469d8d85f585f5da2a2a)
+        ;
+
+        
+    
+    
+            circle_41654cdcc645454ca09400ca149df231.bindTooltip(
+                `<div>
+                     MA Total: 33774.50 kw de potência instalada.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_81ba51a399be402794d36ba2b69c50e4 = L.circle(
+                [-5.2, -39.53],
+                {"bubblingMouseEvents": true, "color": "#69b3a2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#69b3a2", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 67716.61499999996, "stroke": true, "weight": 3}
+            ).addTo(map_56c05dbdcf274bd5baa0f4d7bbf6d565);
+        
+    
+        var popup_577bdaf4c92b4e7d821e77fd72316049 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e04f13b67874588a54382eda5b8e941 = $(`<div id="html_6e04f13b67874588a54382eda5b8e941" style="width: 100.0%; height: 100.0%;">CE</div>`)[0];
+            popup_577bdaf4c92b4e7d821e77fd72316049.setContent(html_6e04f13b67874588a54382eda5b8e941);
+        
+
+        circle_81ba51a399be402794d36ba2b69c50e4.bindPopup(popup_577bdaf4c92b4e7d821e77fd72316049)
+        ;
+
+        
+    
+    
+            circle_81ba51a399be402794d36ba2b69c50e4.bindTooltip(
+                `<div>
+                     CE Total: 135433.23 kw de potência instalada.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9fcee3c1fe3741919c9ce9186b1aa0e8 = L.circle(
+                [-3.79, -52.48],
+                {"bubblingMouseEvents": true, "color": "#69b3a2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#69b3a2", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 28234.78999999987, "stroke": true, "weight": 3}
+            ).addTo(map_56c05dbdcf274bd5baa0f4d7bbf6d565);
+        
+    
+        var popup_af155525e0cc4a45a8d6de4743a7c6cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3123af46601b487bbff48b8c131dab01 = $(`<div id="html_3123af46601b487bbff48b8c131dab01" style="width: 100.0%; height: 100.0%;">PA</div>`)[0];
+            popup_af155525e0cc4a45a8d6de4743a7c6cd.setContent(html_3123af46601b487bbff48b8c131dab01);
+        
+
+        circle_9fcee3c1fe3741919c9ce9186b1aa0e8.bindPopup(popup_af155525e0cc4a45a8d6de4743a7c6cd)
+        ;
+
+        
+    
+    
+            circle_9fcee3c1fe3741919c9ce9186b1aa0e8.bindTooltip(
+                `<div>
+                     PA Total: 56469.58 kw de potência instalada.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_df1ee58fca79472fa9984eb79cac2b01 = L.circle(
+                [-3.47, -65.1],
+                {"bubblingMouseEvents": true, "color": "#69b3a2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#69b3a2", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9192.250000000018, "stroke": true, "weight": 3}
+            ).addTo(map_56c05dbdcf274bd5baa0f4d7bbf6d565);
+        
+    
+        var popup_1881bf5c8fda4828b1e4845759626625 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0b29d5660cb4489b542a05e21449959 = $(`<div id="html_a0b29d5660cb4489b542a05e21449959" style="width: 100.0%; height: 100.0%;">AM</div>`)[0];
+            popup_1881bf5c8fda4828b1e4845759626625.setContent(html_a0b29d5660cb4489b542a05e21449959);
+        
+
+        circle_df1ee58fca79472fa9984eb79cac2b01.bindPopup(popup_1881bf5c8fda4828b1e4845759626625)
+        ;
+
+        
+    
+    
+            circle_df1ee58fca79472fa9984eb79cac2b01.bindTooltip(
+                `<div>
+                     AM Total: 18384.50 kw de potência instalada.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fb2f3dda5e5d411598da3bb1a472e00e = L.circle(
+                [1.41, -51.77],
+                {"bubblingMouseEvents": true, "color": "#69b3a2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#69b3a2", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2569.5450000000005, "stroke": true, "weight": 3}
+            ).addTo(map_56c05dbdcf274bd5baa0f4d7bbf6d565);
+        
+    
+        var popup_e379dda1dbaf483dafb0bccdc0b1e3d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d10187a6d8d24ac2a6874880062d346a = $(`<div id="html_d10187a6d8d24ac2a6874880062d346a" style="width: 100.0%; height: 100.0%;">AP</div>`)[0];
+            popup_e379dda1dbaf483dafb0bccdc0b1e3d4.setContent(html_d10187a6d8d24ac2a6874880062d346a);
+        
+
+        circle_fb2f3dda5e5d411598da3bb1a472e00e.bindPopup(popup_e379dda1dbaf483dafb0bccdc0b1e3d4)
+        ;
+
+        
+    
+    
+            circle_fb2f3dda5e5d411598da3bb1a472e00e.bindTooltip(
+                `<div>
+                     AP Total: 5139.09 kw de potência instalada.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7a4420d785624d5db139abdbd5f6469a = L.circle(
+                [1.99, -61.33],
+                {"bubblingMouseEvents": true, "color": "#69b3a2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#69b3a2", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1369.7099999999994, "stroke": true, "weight": 3}
+            ).addTo(map_56c05dbdcf274bd5baa0f4d7bbf6d565);
+        
+    
+        var popup_ac360945c8a642f3a2e2e69576208848 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dab12bdca8704d009782c0af90f41159 = $(`<div id="html_dab12bdca8704d009782c0af90f41159" style="width: 100.0%; height: 100.0%;">RR</div>`)[0];
+            popup_ac360945c8a642f3a2e2e69576208848.setContent(html_dab12bdca8704d009782c0af90f41159);
+        
+
+        circle_7a4420d785624d5db139abdbd5f6469a.bindPopup(popup_ac360945c8a642f3a2e2e69576208848)
+        ;
+
+        
+    
+    
+            circle_7a4420d785624d5db139abdbd5f6469a.bindTooltip(
+                `<div>
+                     RR Total: 2739.42 kw de potência instalada.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
